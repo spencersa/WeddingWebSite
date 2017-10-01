@@ -6,11 +6,29 @@
     font-size: 35px;
 }
 
-.zelda-jumbrotron-banner{
-    background: url('http://img09.deviantart.net/4d6d/i/2014/287/8/8/bghyliancrest_by_fanboy4ever-d82uclq.jpg') no-repeat center center; 
-    background-size: cover;
-}
-
 .main-background{
     background-color: lightgrey;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.background-image {
+    height: 70%;
+    background-image: url(../content/stockPhoto.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    z-index: -1;
+}
+
+.navbar {
+    margin-bottom: 0px;
 }
