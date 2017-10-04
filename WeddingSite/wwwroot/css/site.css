@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'WeddingFont';
+    src: url('../fonts/adine_kirnberg-webfont.woff2') format('woff2');
+    src: url('../fonts/adine_kirnberg-webfont.woff') format('woff')
+}
+
 .text-white{
     color:white;
 }
@@ -55,4 +61,9 @@ header.masthead {
 
 #navbar > ul > li > a {
     color: #ecf0f1;
+}
+
+.wedding-font {
+    font-family: 'WeddingFont', Fallback, sans-serif;
+    font-size: 70px;
 }
